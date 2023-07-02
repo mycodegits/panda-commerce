@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        input:focus {
+            font-size: 20px;
+            color: red;
+        }
+        fieldset {
+            width: 600px;
+        }
+        li {
+            background-color: red;
+        }
+        li:nth-child(2n) {
+            background-color: gray;    
+        }
+        li:hover {
+            background-color: white;
+        }
+        a:visited {
+            color: blue;
+        }
+        h1 {
+            text-align: center;
+        
+        }
+        h1::before {
+            content:"";
+        
+            background-color: red;
+            width: 50px;
+            height: 2px;
+        
+            left: 25%;
+            top: 50%;
+        }
+        h1::after {
+            content:"";
+            
+            background-color: red;
+            width: 50px;
+            height: 2px;
+            
+            right: 25%;
+            top: 50%;
+        }
+
+        ul {
+            width: 600px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        .content {
+            justify-content: space-between;
+            display: flex;
+        
+        }
+        .first {
+            
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+        .second {
+            
+            background-color: red;
+            width: 100px;
+            height: 100px;
+          
+        }
+        .third {
+            
+            background-color: blue;
+            width: 100px;
+            height: 300px;
+            
+        }
+        div.text {
+            float: left;
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 20px 20px;
+            overflow: auto;
+        }
+        div.image {
+            float: left;
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 20px 20px;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga facilis libero, architecto quas mollitia sequi facere assumenda vitae exercitationem? Repudiandae, aliquid quia? Rem hic ipsam, vel porro iste voluptas quidem illum dolorum? Omnis sed cum in ipsam deleniti. Facilis dicta quo libero inventore saepe minus, maiores esse dolorem est blanditiis sint soluta fuga aliquid deserunt beatae similique quidem totam quaerat, dignissimos nihil corporis. Rerum sint temporibus eum qui a, quibusdam omnis, consequuntur possimus eligendi perferendis ipsa molestias quos quas. Animi architecto laudantium officia, doloremque illo tempora eius magni reprehenderit dolorum optio, quam et impedit non saepe, fugit dolores veniam iure sapiente nostrum. Atque pariatur sint enim accusantium sit dolorem voluptates, doloribus odit unde labore dolore ipsum expedita autem. Fugiat molestiae nesciunt autem quam earum soluta assumenda cupiditate asperiores consequuntur, ut consequatur natus animi sequi beatae sint nisi, numquam eligendi minima facere ducimus corporis optio, aut excepturi! Nobis vel nulla minus a inventore unde rem mollitia officiis reprehenderit, perspiciatis autem dolor ea labore? Incidunt consequuntur nostrum laboriosam at debitis dolor mollitia minima saepe reiciendis quibusdam! Itaque magni modi nihil cumque odit deleniti velit eum eligendi commodi dolorum quasi at incidunt minus expedita dicta repellat perspiciatis distinctio, veniam ad laborum corporis tempora.</p>
+    </div>
+    <div class="image">
+        <img src="Idiot.jpg" alt="">
+    </div>
+    
+</body>
+</html>

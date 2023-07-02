@@ -1,0 +1,109 @@
+
+.container {
+    margin-bottom: 50px;
+}
+
+.slide{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 20px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(#FF589B, #FF136F);
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    color: white;
+    cursor: pointer;
+
+
+}
+.categories{
+    color: white;
+    border-radius: 10px;
+}
+.categories img{
+    width: 100%;
+}
+.watch {
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-size: cover;
+    height: 100%; /* Add this to make the div fill the container's height */
+}
+
+.bag {
+    background-image: linear-gradient(45deg, #FF589B, #FF136F);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-size: cover;
+    height: 100%; /* Add this to make the div fill the container's height */
+}
+
+
+.bag img {
+    flex: 1; /* Add this to make the contents fill the available space */
+}
+
+
+.shoes {
+    background-image: linear-gradient(45deg, #4289FF, #3F07F8);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-size: cover;
+    height: 100%; /* Add this to make the div fill the container's height */
+}
+
+.watch,
+.bag,
+.shoes {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-size: cover;
+    border-radius: 5px; /* Add this to set the border radius */
+}
+
+.watch h1,
+.bag h1,
+.shoes h1 {
+    text-align: left;
+    flex: 1;
+    color: white;
+}
+
+.watch img,
+.bag img,
+.shoes img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px 10px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+.footer{
+    text-align: center;
+}
